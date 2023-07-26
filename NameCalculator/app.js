@@ -23,5 +23,5 @@ function calculateNumericOutput () {
 
   //To insert result into the web page
   var output = "Total Numeric value of the name is " + totalNameValue;
-  document.getElementById('output').innertext = output;
+  document.getElementById('output').innerText = output;
 }
