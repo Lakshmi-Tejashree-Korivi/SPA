@@ -1,6 +1,6 @@
-var student = {
+var user = {
   name: "",
-  type: "student"
+  type: "user"
 };
 
 document.addEventListener('DOMContentLoaded', contentLoaded);
