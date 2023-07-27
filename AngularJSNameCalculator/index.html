@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="AngularJS Name Calculator" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <style>body { font-size: 1.3em; }</style>
+    <title>AngularJS Name Calculator App</title>
+  </head>
+  <body>
+    <h1>AngularJS Name Calculator App</h1>
+    <div ng-controller="NameCalculatorController">
+      <div>
+        Enter name:
+        <input type="text"
+          ng-model="name"
+          ng-keyup="displayNumeric();">
+      </div>
+      <div>Total Numeric value of entered name is:
+        {{totalValue}}</div>
+    </div>
+  </body>
+</html>
+//This is basically the view that is being bound to app.js and in particular to the AppController. The AngularJS is binding this view automatically.
